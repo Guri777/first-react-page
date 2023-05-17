@@ -1,0 +1,513 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 87px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+.wrapper .navbut{
+  display: flex;
+  justify-content: center;    
+  width: 100%;
+  gap: 20px;
+  flex-direction: row;
+  font-size: medium;
+ 
+}
+.wrapper .navbut nav{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap:50px;
+  
+}
+
+.wrapper .navbut nav button{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: blue;
+  color: white;
+}
+.wrapper .navbut nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap:50px;
+ 
+}
+
+.wrapper .navbut nav ul li{
+  
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+
+.wrapper .logo{
+  width: 156px;
+  height: 32px;
+}
+
+.para{
+  display: flex;
+  background-color: lightgray;
+  flex-direction: column;
+  background-position: left bottom;;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  
+}
+.para p{
+  margin-top: 100px;
+
+}
+
+.para h2{
+  margin-top: 50px;
+
+}
+
+.para img{
+  width: 100%;
+}
+
+
+.proglang{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-top: 70px;
+  height: 200px;
+  width: 100vw;
+  
+
+}
+.wrapper .navbut button{
+  display: flex;
+  justify-content: center;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  background-color: white;
+  cursor: pointer;
+  width: 151px;
+  height: 51px;
+  font-size: larger;
+}
+
+.ragaca{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: lightgray;
+  padding-top: 40px;
+
+}
+
+.nav2{
+  
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+
+}
+
+.nav2 h2{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 20%;
+
+}
+
+.nav2 nav{
+  display: flex;
+  justify-content: center;
+  flex-shrink: 30%;
+  
+ 
+ 
+}
+
+.nav2 nav ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+  
+}
+
+.nav2 nav ul li{
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+
+
+
+
+.suratebi{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap:50px;
+ 
+  
+  
+}
+.suratebi figure {
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.suratebi figure a {
+  display: flex;
+  justify-content: center;
+  flex: 6%;
+  
+  gap: 50px;
+}
+
+
+.suratebi figure a img{
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  gap: 100px;
+}
+
+
+.momdevno{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  /* display: block; */
+
+}
+.momdevno img{
+  /* margin-left: 50%; */
+  /* margin-bottom: 300px; */
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+.momdevno .opaa{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+  width: 40%;
+}
+
+
+.momdevno  .pirveli{
+  color: blue;
+  font-size: small;
+}
+
+.momdevno  .meore{
+  color: black;
+  font-size: xx-large;
+
+}
+
+.momdevno  .mesame{
+  color: gray;
+  font-size: large;
+
+}
+
+.momdevno  .meotxe{
+  color: gray;
+  font-size: small;
+
+}
+
+.momdevno .mexute{
+  color: gray;
+  font-size: large;
+
+}
+
+.momdevno  .meeqvse{
+  color: gray;
+  font-size: small;
+
+}
+.didisurati{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  height: 300px;
+ 
+}
+
+.didisurati h2{
+  padding-top: 100px;
+  color: black;
+  font-size: xx-large;
+  margin-top: 100px;
+}
+
+.didisurati1{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.didisurati1 img{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.didi{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.didi p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 2%;
+}
+.didi .patara{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+  height: 100%;
+  gap: 15px;
+}
+.didi .patara img{
+  width: 20%;
+  height: 100%;
+  gap: 100px;
+
+}
+
+.didi  .lurji{
+  color: blue;
+  font-size: medium;
+  margin-top: 5%;
+}
+
+.didi  .lurjis-didi{
+  color: black;
+  font-size: xx-large;
+}
+
+
+
+
+.mtavari-languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 100px;
+}
+
+.mtavari-languages figure{
+  display: flex;
+  justify-content: center;
+  flex: 20%;
+
+}
+
+.mtavari-languages  figure img{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 30%;
+}
+
+
+
+.mtliani1{
+  display: flex;
+  width: 100%;
+  position: bottom left;
+  background-repeat: no-repeat;
+
+}
+
+.mtliani1 img{
+width: 100%;
+}
+
+.mtliani{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  gap:100px;
+  
+}
+
+.mtliani h2{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  color: black;
+  flex: 50%;
+  margin-top: 80px;
+
+}
+
+.mtliani .sxvebi{
+  
+  min-height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.mtliani .sxvebi img{
+  width: 20%;
+  flex: 50%;
+}
+
+.iyosrame{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  /* height: 100%; */
+
+}
+
+.iyosrame .opa{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* top: 10%;
+  right: 10%;
+   */
+  
+}
+.iyosrame img{
+  display: flex;
+  flex: 50%;
+  width: 30%;
+  
+}
+
+
+.ravi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 50%;
+  background-color: lightgrey;
+  width: 100%;
+  height: 100%;
+
+}
+
+.ravi .ravi1{
+  display: flex;
+  justify-content: center;
+  color: blue;
+  font-size: small;
+
+}
+
+
+.ravi .ravi2{
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: xx-large;
+}
+
+.arvici{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  gap: 50px;
+}
+.arvici p{
+  margin-top: 5%;
+}
+
+.arvici button{
+  margin-top: 30px;
+  box-sizing: border-box;
+  border-radius: 10%;
+  width: 30%;   
+  height: 30%;
+  cursor: pointer;
+}
+
+.arvici .arvici3{
+  display: flex;
+  
+  /* margin-left: 70%; */
+  gap: 40px;
+  margin-bottom: 15px;
+
+}
+
+@media only screen and (max-width:556px) {
+  body{
+      display: flex;
+      flex-direction: column;
+      background-color: blueviolet;
+  }
+
+}
+
+@media only screen and (min-width:800px) {
+  body{
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+  }
+
+}
